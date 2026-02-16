@@ -8,6 +8,8 @@
   "domain": "",
   "region": "",
 
+  "alert_level": null,
+
   "baseline_window_days": 60,
   "rolling_window_hours": 72,
   "threshold_definition": ">10% C drop for >6h",
