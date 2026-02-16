@@ -58,3 +58,16 @@ Prospective monitoring begins March 1, 2026.
 ---
 
 This repository is intended to ensure transparency, auditability, and scientific rigor in the prospective validation of the C metric.
+
+## Pre-Launch Testing
+
+Test alerts may appear in the repository before March 1, 2026.
+
+All such entries will be clearly labeled with an `alert_id` beginning with:
+
+TEST_
+
+These files are strictly non-operational and serve only to validate 
+the alert logging structure, JSON schema integrity, and commit traceability.
+
+No test alerts will be considered part of the prospective validation phase.
