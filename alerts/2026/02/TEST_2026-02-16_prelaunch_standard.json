@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "pipeline_version": "v1.0-preregistered",
+  "timestamp_utc": "2026-02-16T00:00:00Z",
+  "alert_id": "TEST_2026-02-16_prelaunch_standard",
+  "domain": "test",
+  "region": "test",
+  "alert_level": "standard",
+  "baseline_window_days": 60,
+  "rolling_window_hours": 72,
+  "threshold_definition": ">10% C drop for >6h",
+  "metrics": {
+    "C_current": 0.90,
+    "C_baseline": 1.00,
+    "C_drop_percent": 10.0,
+    "duration_hours": 6,
+    "V_std": null,
+    "E_entropy": null,
+    "I_instability": null,
+    "S_stress": null
+  },
+  "controls_status": {
+    "shuffle_test_passed": null,
+    "phase_randomization_passed": null,
+    "block_shuffle_passed": null
+  },
+  "data_sources": []
+}
