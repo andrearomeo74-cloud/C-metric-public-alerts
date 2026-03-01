@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "pipeline_version": "v1.0-preregistered",
+  "timestamp_utc": "2026-03-01T00:00:00Z",
+  "alert_id": "INIT-2026-03-01",
+  "status": "monitoring_started",
+  "domain": null,
+  "region": null,
+  "alert_level": null,
+  "baseline_window_days": 60,
+  "rolling_window_hours": 72,
+  "threshold_definition": "preregistered v1.0 (no alert yet)",
+  "metrics": {
+    "C_current": null,
+    "C_baseline": null,
+    "C_drop_percent": null,
+    "duration_hours": null,
+    "V_std": null,
+    "E_entropy": null,
+    "I_instability": null,
+    "S_stress": null
+  },
+  "controls_status": {},
+  "data_sources": []
+}
