@@ -9,6 +9,8 @@ Frozen as of February 28, 2026.
 No retroactive modifications permitted.  
 Any future changes will increment `pipeline_version` and remain publicly traceable.
 
+Scientific objective and working hypothesis are described in HYPOTHESIS.md.
+
 ## Core Definition
 
 C = V / (E + I + S)
@@ -71,3 +73,19 @@ These files are strictly non-operational and serve only to validate
 the alert logging structure, JSON schema integrity, and commit traceability.
 
 No test alerts will be considered part of the prospective validation phase.
+
+## Research Objective
+
+This repository supports the prospective validation of the C metric
+as a potential early warning indicator for systemic instability
+in complex systems.
+
+The experiment is designed to test whether sustained decreases in the
+congruity metric
+
+C = V / (E + I + S)
+
+systematically precede extreme events in monitored systems.
+
+All parameters, thresholds, and controls were defined prior to the
+start of monitoring to ensure transparency and scientific rigor.
