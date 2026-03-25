@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "record_type": "multilayer_signal",
+  "pipeline_version": "v1.0-preregistered",
+  "timestamp_utc": "2026-03-25T09:30:00Z",
+  "signal_id": "pacific-demo-001",
+  "region": "Pacific",
+  "domain": "seismic",
+  "status": "observed",
+  "sources": {
+    "c_metric_public_alerts": {
+      "detected": false,
+      "alert_id": "",
+      "C_current": null,
+      "C_baseline": null,
+      "C_drop_percent": null,
+      "duration_hours": null,
+      "alert_level": "",
+      "threshold_match": false
+    },
+    "cgie_structural_radar": {
+      "detected": true,
+      "cell_id": "-20_176",
+      "risk": 1.0,
+      "phase": "Transition Risk",
+      "trend": "Rising",
+      "events_count": 7,
+      "max_magnitude": 7.5,
+      "threshold_match": true
+    }
+  },
+  "convergence": {
+    "same_region": true,
+    "same_time_window": true,
+    "independent_alignment": false,
+    "signal_strength": "structural_only",
+    "notes": "Structural radar signal present, public C metric confirmation not yet observed."
+  },
+  "validation_status": {
+    "event_occurred_after_signal": null,
+    "event_type": "",
+    "event_timestamp_utc": "",
+    "lead_time_hours": null
+  },
+  "comments": "Demo example only, not a validated multilayer alert."
+}
