@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "record_type": "multilayer_signal",
+  "pipeline_version": "v1.0-preregistered",
+  "timestamp_utc": "",
+  "signal_id": "",
+  "region": "",
+  "domain": "",
+  "status": "observed",
+  "sources": {
+    "c_metric_public_alerts": {
+      "detected": null,
+      "alert_id": "",
+      "C_current": null,
+      "C_baseline": null,
+      "C_drop_percent": null,
+      "duration_hours": null,
+      "alert_level": "",
+      "threshold_match": null
+    },
+    "cgie_structural_radar": {
+      "detected": null,
+      "cell_id": "",
+      "risk": null,
+      "phase": "",
+      "trend": "",
+      "events_count": null,
+      "max_magnitude": null,
+      "threshold_match": null
+    }
+  },
+  "convergence": {
+    "same_region": null,
+    "same_time_window": null,
+    "independent_alignment": null,
+    "signal_strength": "",
+    "notes": ""
+  },
+  "validation_status": {
+    "event_occurred_after_signal": null,
+    "event_type": "",
+    "event_timestamp_utc": "",
+    "lead_time_hours": null
+  },
+  "comments": ""
+}
