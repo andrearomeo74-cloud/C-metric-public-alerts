@@ -53,6 +53,24 @@ Each alert:
 - Is committed immediately
 - Is traceable via immutable Git commit hash
 
+## Multi layer signal logging
+
+This repository also supports a separate transparency layer for multi layer signals.
+
+A multi layer signal is not a prediction claim.
+It is a public record of independent alignment between:
+
+1. the public C metric alert pipeline
+2. an external structural radar or instability system
+
+Files are stored separately under:
+
+`multilayer/YYYY/MM/`
+
+This layer is observational and audit oriented.
+It does not modify thresholds, alerts, or preregistered statistical logic.
+It only records when independent systems show temporal and regional convergence.
+
 ## Monitoring Start
 
 Prospective monitoring begins March 1, 2026.
